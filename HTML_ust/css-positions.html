@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        p,div{
+            display: inline;
+            border:1px solid black
+        }
+        .static{
+            position: static;
+          
+            top:50px;
+            left: 20px;
+        }
+        .fixed{
+            position: fixed;
+     
+            top:50px;
+            left: 20px;
+
+        }
+        .relative{
+            position :relative;
+            min-width: 300px;
+            min-height: 300px;
+        }
+        .absolute{
+            bottom:50px ;
+            right: 20px;
+
+        }
+       .sticky{
+           position: sticky;
+           background-color: darkblue;
+           right: 20px;
+
+        }
+
+    </style>
+</head>
+<body>
+   <p class="static">This is a paragraph</p>
+    <p class="fixed">fixed position paragraph </p>
+    <p class="relative">fixed position paragraph </p>
+   <div>
+       this is outer the div
+    <div class="absolute">absolute paragraph</div>
+</div>
+    </div>
+
+    <p class="sticky">This is a stichy</p>
+
+</body>
+</htm

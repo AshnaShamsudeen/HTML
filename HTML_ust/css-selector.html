@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Document</title>
+            <style>
+                /*Element selector */
+                p,h2{
+                    background-color:yellow;
+                }
+                /*Class selector*/
+                .paragraph{
+                    min-height: 50px;
+                }
+                .inner-paragraph{
+                    color: brown;
+                }
+                /*Id selector*/
+                #p1{
+                    text-align: center;
+                }
+                /*Psedo selector*/
+               
+                /*Universal selector*/
+                *{
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+                p:hover{
+                    min-height: 100px;
+                    background-color:darkred;
+                }
+                /*Attribute selector*/
+                p[class="paragraph"]{
+                    color: greenyellow;
+                }
+            </style>
+            </head>
+            <body>
+                <h2 id="heading1" class="heading">A heading</h2>
+                <p id="p1" class="paragraph">A paragraph</p>
+                <div id="d1" class="divs"> A div
+                <p id="p2" class="paragraph inner-paragraph">paragraph inside the div</p>
+                </div >
+                <p id="p3" class="paragraph">Another paragraph</p>
+                <div id="d2" class="divs">another div</div>
+                <button id="btn1" class="btn">Click me</button>
+                </body>
+                </html>

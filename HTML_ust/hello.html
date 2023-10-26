@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Hello World</title>
+            <!--Internal CSS-->
+            <style>
+                .style1{
+                    background-color: aqua;
+                }
+                </style>
+                <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+                <!--Inline CSS-->
+                <h1 style="color:blueviolet; text-align: center;">UST GLOBAL</h1>
+
+                <h2 class="style1">Technopark phase2</h2>
+                <h3 class="style1">Bhavani</h3>
+                <h4>Training pool</h4>
+                <h5 class="style2">Welcome to Trivandrum</h5>
+                <h6 id="d"></h6>
+                </body>
+                <script>
+                    function updateDate(){
+                    let date=new Date();
+                    document.getElementsById("d").innerHTML=date;}
+                    setInterval(updateDate,1000);
+                </script>
+        </html>
